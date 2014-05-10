@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui widgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -19,6 +19,8 @@ HEADERS  += \
     mainwindow.h
 
 INCLUDEPATH += D:\vlc-2.1.3\sdk\include
+#LIBS    += -LE:\ -llibvlc
+#LIBS    += -LE:\ -llibvlccore
 LIBS    += -LD:\vlc-2.1.3\sdk\lib -llibvlc
 LIBS    += -LD:\vlc-2.1.3\sdk\lib -llibvlccore
 

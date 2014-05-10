@@ -5,6 +5,7 @@
 #include <vlc/vlc.h>
 #include <QString>
 #include <QMessageBox>
+//#include <QVideoWidget>
 
 namespace Ui {
 class MainWindow;
